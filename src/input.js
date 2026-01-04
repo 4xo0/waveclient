@@ -285,7 +285,7 @@ export class InputController {
   }
 
   connect() {
-    this.state.ws = new WebSocket('ws://64.176.65.212:4443');
+    this.state.ws = new WebSocket('wss://64.176.65.212:4443');
     this.state.ws.binaryType = 'arraybuffer';
 
     this.state.ws.onopen = () => {
