@@ -1,0 +1,16 @@
+{
+  "id": "wave1",
+  "room": 1,
+  "grid": { "size": 25 },
+  "walls": {
+    "kind": "box",
+    "strokeWidth": 8,
+    "halfSize": 450.0
+  },
+  "wave": {
+    "entityRadius": 8.0,
+    "spawnMargin": 60.0,
+    "waveNumber": 1
+  },
+  "portals": []
+}
